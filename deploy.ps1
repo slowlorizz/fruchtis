@@ -24,6 +24,6 @@ if($($CustomDomain.Length -gt 0) -and $($CustomDomain -match '^([a-z0-9]+\.)*[a-
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:slowlorizz/fruchtis.git master:gh-pages
+git push -f git@github.com:slowlorizz/fruchtis.git master:web
 
 cd -
