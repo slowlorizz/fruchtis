@@ -1,5 +1,7 @@
 # fruchtis
 
+> **Because of bug always run `sh ./deploy.sh` in root of project in Git Bash**
+
 ## Project setup
 ```
 npm install
