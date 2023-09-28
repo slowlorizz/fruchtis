@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-main>
+      <NavBar />
       <router-view />
     </v-main>
   </v-app>
@@ -15,3 +16,9 @@ import { Component } from "vue-property-decorator";
 })
 export default class App extends Vue {}
 </script>
+
+<style lang="scss">
+html {
+  overflow-y: hidden;
+}
+</style>
