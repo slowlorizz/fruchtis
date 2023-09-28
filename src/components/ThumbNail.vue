@@ -36,8 +36,9 @@ export default class ThumbNail extends Vue {}
 <style>
 #thumbnail_wrapper {
   width: 100vw;
-  height: 90vh;
+  height: 70vmin;
   background-image: url("../assets/wiese_flacher.svg");
   background-size: cover;
+  background-position: center;
 }
 </style>

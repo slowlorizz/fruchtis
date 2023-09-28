@@ -20,10 +20,10 @@ export default class LayeredTitle extends Vue {
 }
 
 #title_wrapper {
-  font-size: 40vmin;
+  font-size: 30vmin;
   text-align: center;
   height: 58vh;
-  line-height: 50vh;
+  line-height: 50vmin;
   color: #fcfcfd;
   font-family: SunnySpells, cursive;
   font-weight: 700;
